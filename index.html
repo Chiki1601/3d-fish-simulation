@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> 3D Fish Simulation</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+
+3D Fish Simulation
+Gray Wolf, December 2017
+--------------------------------------------------
+
+This program simulates 3D fish swimming around the ocean
+
+Click the screen to add more fish (maximum of 4)
+- Limit of 4 due to resource hungry fish :)
+- If you want more fish you can change maxFish on line 46 within the Scene object
+
+Move your mouse to take control of the yellow/orange fish
+
+The fish get:
+- larger when they are swimming towards you
+- smaller when they are swimming away
+
+The closer fish will always appear in front
+
+NOTE: If you take a spin-off you will need to gointo settings below your spin-off and change the width and height to 600, then refresh your page :)
+
+Want to be notified when I create a new program? Sub here:
+https://www.khanacademy.org/cs/gray-wolf/4876588413698048
+
+-->
+
+<body>
+    <p align="center"> 
+	    <!--This draws the Canvas on the webpage -->
+      <canvas id="canvas"></canvas> 
+    </p>
+  <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+ </body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
